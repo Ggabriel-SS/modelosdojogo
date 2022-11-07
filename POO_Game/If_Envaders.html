@@ -8,8 +8,17 @@
     
 </head>
 <body>
-    <canvas id="canvas" height="900px" width="600px" style="border: solid;"></canvas>
-    
+    <section style="display:flex; justify-content: center;">
+        <canvas id="canvas" height="900px" width="600px" style="border: solid;"></canvas>
+    </section>
+    <div id="bots" style="display:flex; justify-content: center;">
+        <button onclick="esquerda()">
+            <img src="imagens/bnt2.png" alt="esquerda">
+        </button>
+        <button onclick="direita()">
+            <img src="imagens/bnt.png" alt="direita">
+        </button>
+    </div>
     <script src="lib.js"></script>
     <script src="Jogo.js"></script>
 </body>
